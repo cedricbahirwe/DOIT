@@ -155,6 +155,7 @@ class MainViewModel: ObservableObject {
         if let index = tasks.firstIndex(where: { $0.id == selectedTask.id }) {
             self.tasks.remove(at: index)
         }
+        selectedTask = TaskModel()
     }
     
     /// Update a task
@@ -171,7 +172,7 @@ class MainViewModel: ObservableObject {
         if selectedTask.isDone == false {
             guard  let index =  tasks.firstIndex(where: { $0.id == selectedTask.id })  else { return }
             tasks[index].isDone = true
-            //            selectedTask =  tasks[index]
         }
+        selectedTask = TaskModel()
     }
 }

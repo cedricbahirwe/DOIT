@@ -16,10 +16,11 @@ struct TaskDetailsView: View {
         ZStack(alignment: .bottom) {
             VStack(spacing: 0) {
                 HeaderView()
-                Image(uiImage: vm.selectedTask.image ?? UIImage(named: "IB_logo")!)
+                Image(uiImage: vm.selectedTask.image ?? UIImage(named: "abc-logo")!)
+                    .renderingMode(vm.selectedTask.image == nil ? .template : .original)
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(maxHeight: size.height/3)
+                    .scaledToFit()
+                    .frame(maxWidth: size.width-10, maxHeight: size.height/3)
                     .clipped()
                     .zIndex(-10)
                 
@@ -60,7 +61,6 @@ struct TaskDetailsView: View {
                             Button(action: {
                                 vm.finishTask()
                                 presentationMode.wrappedValue.dismiss()
-                                vm.selectedTask = TaskModel()
                             }) {
                                 Text("DONE")
                                     .font(.montSerrat(.bold, size: 14))
@@ -134,7 +134,6 @@ struct TaskDetailsView: View {
                     Button(action: {
                         showDeleteView = false
                         vm.deleteTask()
-                        vm.selectedTask = TaskModel()
                         presentationMode.wrappedValue.dismiss()
                     }, label: {
                         Text("Delete")

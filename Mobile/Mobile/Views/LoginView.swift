@@ -27,9 +27,10 @@ struct LoginView: View {
         VStack(spacing: 35) {
             Spacer().frame(minHeight: 10)
 
-            Image("IB_logo")
+            Image("abc-logo")
                 .resizable()
-                .frame(width: 65, height: 65)
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 100, height: 80)
             
             VStack(spacing: 18) {
                 HStack {

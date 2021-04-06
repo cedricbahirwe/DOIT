@@ -24,7 +24,7 @@ struct SplashScreen: View {
         .blur(radius: hideSplash ? 1.0 : 0.0)
         .onAppear(perform: {
             withAnimation(Animation.linear(duration: 1)) {
-//                hideSplash.toggle()
+                hideSplash.toggle()
             }
         })
     }

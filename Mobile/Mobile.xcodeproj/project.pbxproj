@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		822F626125E5094B00B4B4A5 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F626025E5094A00B4B4A5 /* ShortcutManager.swift */; };
 		8246703125E437680049A44A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246703025E437680049A44A /* HeaderView.swift */; };
 		826E59A525E28CC70058A3CA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E59A425E28CC70058A3CA /* HomeView.swift */; };
 		826E59A825E28D310058A3CA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E59A725E28D310058A3CA /* LoginView.swift */; };
@@ -22,7 +21,6 @@
 		828AFD0425E1AA4300676C2A /* Extension+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828AFD0325E1AA4300676C2A /* Extension+Fonts.swift */; };
 		828AFD0725E1AADD00676C2A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 828AFD0625E1AADD00676C2A /* Montserrat-Bold.ttf */; };
 		828AFD0D25E1ABF700676C2A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828AFD0C25E1ABF700676C2A /* SplashScreen.swift */; };
-		828AFD1025E1AE6900676C2A /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828AFD0F25E1AE6900676C2A /* GridStack.swift */; };
 		828AFD1425E1BB0200676C2A /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828AFD1325E1BB0200676C2A /* NewTaskView.swift */; };
 		828AFD1825E1CB2A00676C2A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828AFD1725E1CB2A00676C2A /* ImagePicker.swift */; };
 		828AFD1B25E1D1AF00676C2A /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828AFD1A25E1D1AF00676C2A /* KeyboardManager.swift */; };
@@ -37,13 +35,10 @@
 		82B3C27125E1EFC10043CEBA /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B3C27025E1EFC10043CEBA /* Extension+Date.swift */; };
 		82B3C27C25E206EB0043CEBA /* TasksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B3C27B25E206EB0043CEBA /* TasksList.swift */; };
 		82B3C28225E20EC90043CEBA /* UpdateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B3C28125E20EC90043CEBA /* UpdateTaskView.swift */; };
-		82C3629325E52A2600C91273 /* SenderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C3629225E52A2600C91273 /* SenderRowView.swift */; };
-		82E82C5125E52CEC006201D3 /* ReceiverRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E82C5025E52CEC006201D3 /* ReceiverRowView.swift */; };
 		82E82C5D25E54058006201D3 /* AlertFiedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E82C5C25E54058006201D3 /* AlertFiedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		822F626025E5094A00B4B4A5 /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
 		8246703025E437680049A44A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		826E59A425E28CC70058A3CA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		826E59A725E28D310058A3CA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -60,7 +55,6 @@
 		828AFD0325E1AA4300676C2A /* Extension+Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Fonts.swift"; sourceTree = "<group>"; };
 		828AFD0625E1AADD00676C2A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		828AFD0C25E1ABF700676C2A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
-		828AFD0F25E1AE6900676C2A /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
 		828AFD1325E1BB0200676C2A /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 		828AFD1725E1CB2A00676C2A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		828AFD1A25E1D1AF00676C2A /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
@@ -75,8 +69,6 @@
 		82B3C27025E1EFC10043CEBA /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
 		82B3C27B25E206EB0043CEBA /* TasksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksList.swift; sourceTree = "<group>"; };
 		82B3C28125E20EC90043CEBA /* UpdateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskView.swift; sourceTree = "<group>"; };
-		82C3629225E52A2600C91273 /* SenderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderRowView.swift; sourceTree = "<group>"; };
-		82E82C5025E52CEC006201D3 /* ReceiverRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverRowView.swift; sourceTree = "<group>"; };
 		82E82C5C25E54058006201D3 /* AlertFiedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFiedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,8 +128,6 @@
 			children = (
 				828AFD1A25E1D1AF00676C2A /* KeyboardManager.swift */,
 				828AFD1725E1CB2A00676C2A /* ImagePicker.swift */,
-				828AFD0F25E1AE6900676C2A /* GridStack.swift */,
-				822F626025E5094A00B4B4A5 /* ShortcutManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -173,8 +163,6 @@
 				82B3C27B25E206EB0043CEBA /* TasksList.swift */,
 				82A4D39125E26EC7007D4C24 /* GridItemView.swift */,
 				8246703025E437680049A44A /* HeaderView.swift */,
-				82C3629225E52A2600C91273 /* SenderRowView.swift */,
-				82E82C5025E52CEC006201D3 /* ReceiverRowView.swift */,
 				82E82C5C25E54058006201D3 /* AlertFiedView.swift */,
 			);
 			path = SubViews;
@@ -268,12 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				828AFD0D25E1ABF700676C2A /* SplashScreen.swift in Sources */,
-				82E82C5125E52CEC006201D3 /* ReceiverRowView.swift in Sources */,
 				82A4D39225E26EC7007D4C24 /* GridItemView.swift in Sources */,
 				828AFD1425E1BB0200676C2A /* NewTaskView.swift in Sources */,
 				828AFCEE25E1A53900676C2A /* ContentView.swift in Sources */,
 				826E59AB25E28D4B0058A3CA /* AuthenticationViewModel.swift in Sources */,
-				828AFD1025E1AE6900676C2A /* GridStack.swift in Sources */,
 				82999A6225E4389A00044D0B /* Extension+UIImage.swift in Sources */,
 				828AFD2325E1E13F00676C2A /* Extension+View.swift in Sources */,
 				8246703125E437680049A44A /* HeaderView.swift in Sources */,
@@ -281,11 +267,9 @@
 				828AFD1F25E1D7E200676C2A /* TaskDetailsView.swift in Sources */,
 				828AFCFC25E1A80100676C2A /* Extension+Colors.swift in Sources */,
 				828AFD1825E1CB2A00676C2A /* ImagePicker.swift in Sources */,
-				822F626125E5094B00B4B4A5 /* ShortcutManager.swift in Sources */,
 				82B3C27125E1EFC10043CEBA /* Extension+Date.swift in Sources */,
 				828AFD0425E1AA4300676C2A /* Extension+Fonts.swift in Sources */,
 				828AFCEC25E1A53900676C2A /* MobileApp.swift in Sources */,
-				82C3629325E52A2600C91273 /* SenderRowView.swift in Sources */,
 				826E59A525E28CC70058A3CA /* HomeView.swift in Sources */,
 				826E59AE25E28F550058A3CA /* Extension+String.swift in Sources */,
 				82B3C27C25E206EB0043CEBA /* TasksList.swift in Sources */,
