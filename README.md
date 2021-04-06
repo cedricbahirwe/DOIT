@@ -31,8 +31,5 @@ A todo item is made of:
 
 ### ✨Upcoming features
 
-- Add a option to link a picture with a to-do item(From Camera or gallery picker) - (Done)
 - Integrate with [Firestore](https://firebase.google.com/docs/firestore) where the todo items will be stored and retreived(Having same CRUD operations working with Firebase)
-- Add a search & filter option:
-  - Search by todo's title  - (Done)
-  - Filter by todos' priority or date of creation - (Done)
+- - Use of CoreData as Local Database
