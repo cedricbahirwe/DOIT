@@ -27,9 +27,9 @@ struct HomeView: View {
                 
                 VStack(spacing: 0) {
                     HStack {
-                        Image("IW_logo")
+                        Image("abc-logo")
                             .resizable()
-                            .frame(width: 30, height: 30)
+                            .frame(width: 50, height: 30)
                         
                         Spacer()
                         NavigationLink(
