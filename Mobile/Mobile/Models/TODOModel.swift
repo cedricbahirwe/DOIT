@@ -84,7 +84,7 @@ struct TODOUserModel: Codable {
     var phoneNumber: String?
     var pin: Int?
     var avatar: Data?
-    var name: String {
+    var userName: String {
         firstName.trimmingCharacters(in: .whitespacesAndNewlines) + " " +  lastName.trimmingCharacters(in: .whitespacesAndNewlines)
     }
 }

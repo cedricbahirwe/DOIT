@@ -40,8 +40,7 @@ struct LoginView: View {
                         
                         TextField("John", text: $authVM.user.firstName)
                             .keyboardType(.default)
-                            .textContentType(.username)
-                            .autocapitalization(.none)
+                            .textContentType(.givenName)
                             .disableAutocorrection(true)
                             .padding(.vertical, 5)
                             .foregroundColor(Color(.label))
@@ -53,8 +52,7 @@ struct LoginView: View {
                         
                         TextField("Doe", text: $authVM.user.lastName)
                             .keyboardType(.default)
-                            .textContentType(.username)
-                            .autocapitalization(.none)
+                            .textContentType(.familyName)
                             .disableAutocorrection(true)
                             .padding(.vertical, 5)
                             .overlay(Color.darkBlue.frame(height: 1), alignment: .bottom)
@@ -110,8 +108,8 @@ struct LoginView: View {
                         .frame(maxWidth: .infinity)
                         .padding()
                         .font(.montSerrat(.bold))
-                        .foregroundColor(Color.white)
-                        .background(Color.darkBlack)
+                        .foregroundColor(Color(.systemBackground))
+                        .background(Color(.label))
                         .cornerRadius(5)
                 }
                 .disabled(!(validateEmail && validatePassword && validFirstName && validLastName))
@@ -129,8 +127,6 @@ struct LoginView: View {
         .onReceive(authVM.validEmail) { validateEmail = $0 }
         .onReceive(authVM.validPassword) {validatePassword = $0 }
     }
-    
-    
 }
 
 struct LoginView_Previews: PreviewProvider {

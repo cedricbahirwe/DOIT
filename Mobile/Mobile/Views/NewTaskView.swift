@@ -112,16 +112,17 @@ struct NewTaskView: View {
                                         .foregroundColor(.red)
                                 }
                             }
-                            TextField("Task title (140 Characters)", text: $vm.selectedTask.title.onChange({ text in
-                                if text.count > 140 {
-                                    vm.selectedTask.title = String(text.prefix(140))
-                                }
-                            }))
+                            TextField("Task title (140 Characters)", text: $vm.selectedTask.title)
                                 .font(.montSerrat(.regular, size: 14))
                                 .padding(.leading, 8)
                                 .padding(.vertical, 10)
                                 .background(Color.lightenGray)
                                 .cornerRadius(3)
+                            .onChange(of: vm.selectedTask.title, perform: { text in
+                                if text.count > 140 {
+                                    vm.selectedTask.title = String(text.prefix(140))
+                                }
+                            })
                         }
                         
                         VStack(alignment: .leading, spacing: 10) {
@@ -190,7 +191,6 @@ struct NewTaskView: View {
                             .background(Color.lightenGray)
                             .cornerRadius(3)
                         }
-                        
                         
                         HStack {
                             Button(action: {

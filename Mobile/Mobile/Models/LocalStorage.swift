@@ -61,8 +61,6 @@ class TODOSession {
     func destroy() {
         // MARK: MAIN OBJECTS TO REMOVE ON LOG OUT
         UserDefaults.standard.removeObject(forKey: TODO_USER_LOGIN)
-        
-        // MARK:
         UserDefaults.standard.removeObject(forKey: TODO_USER)
         UserDefaults.standard.removeObject(forKey: STORED_EVENTS)
     }

@@ -11,7 +11,7 @@ struct HomeView: View {
     @EnvironmentObject var vm: MainViewModel
     @State private var showFilter: Bool = false
     
-    @State private var username: String = TODOSession.shared.toDoUser?.name ?? ""
+    @State private var username: String = TODOSession.shared.toDoUser?.userName ?? ""
     @State private var showUserNameAlert = false
     
     var body: some View {
