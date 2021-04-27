@@ -31,5 +31,5 @@ A todo item is made of:
 
 ### ✨Upcoming features
 
-- Integrate with [Firestore](https://firebase.google.com/docs/firestore) where the todo items will be stored and retreived(Having same CRUD operations working with Firebase)
+- Integrate with [Firestore](https://firebase.google.com/docs/firestore) where the todo items will be stored and retrieved(Having same CRUD operations working with Firebase)
 - - Use of CoreData as Local Database
