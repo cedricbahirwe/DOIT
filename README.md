@@ -31,7 +31,7 @@ A todo item is made of:
 
 <img alt="Login View" height="890" src="login.png">&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Home View" height="890" src="home.png">
 
-<img alt="Task Createion View" width="45%" height="890" src="taskcreate.png">&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Task Update View" width="45%" height="890" src="taskupdate.png">
+<img alt="Task Createion View" height="890" src="taskcreate.png">&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Task Update View" height="890" src="taskupdate.png">
 
 ### ✨Upcoming features
 
