@@ -29,6 +29,10 @@ A todo item is made of:
 - Someone can delete a todo item
 - THE DATA SHOULD BE STORED LOCALLY (app memory, app database)
 
+<img alt="Home View" width="45%" height="890" src="home.png">&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Login View" width="45%" height="890" src="login.png">
+
+<img alt="Task Createion View" width="45%" height="890" src="taskcreate.png">&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Task Update View" width="45%" height="890" src="taskupdate.png">
+
 ### ✨Upcoming features
 
 - Integrate with [Firestore](https://firebase.google.com/docs/firestore) where the todo items will be stored and retrieved(Having same CRUD operations working with Firebase)
