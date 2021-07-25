@@ -29,9 +29,14 @@ A todo item is made of:
 - Someone can delete a todo item
 - THE DATA SHOULD BE STORED LOCALLY (app memory, app database)
 
-<img alt="Login View" height="890" src="login.png">&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Home View" height="890" src="home.png">
+Login View                   |  Home View
+:-------------------------:|:-------------------------:
+![](login.png)  |  ![](home.png)
 
-<img alt="Task Createion View" height="890" src="taskcreate.png">&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Task Update View" height="890" src="taskupdate.png">
+Details View                 |  Update View
+:-------------------------:|:-------------------------:
+![](details.png)  |  ![](update.png)
+
 
 ### ✨Upcoming features
 
