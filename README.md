@@ -31,7 +31,7 @@ A todo item is made of:
 
 Login View                   |  Home View
 :-------------------------:|:-------------------------:
-![](login.png)  |  ![](home.png)
+![](auth.png)  |  ![](welcome.png)
 
 Details View                 |  Update View
 :-------------------------:|:-------------------------:
