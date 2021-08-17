@@ -38,6 +38,18 @@ Details View                 |  Update View
 ![](details.png)  |  ![](update.png)
 
 
+## TakeAways 🚀
+
+- **Deep understanding of agile methodology to build and ship producs**
+- **Understand the MVP, (cfr this whole app has been built in less than 10 hrs)**
+- **Usage of UserDefaults Api to store data locally**
+- **Latest SwiftUI features + Automatic Light/Dark Mode Support**
+
+## Special Thanks to:
+
+1. [Vainqueur Bihame](https://github.com/WinnersProx) for his inspiration ✨.
+
+
 ### ✨Upcoming features
 
 - Integrate with [Firestore](https://firebase.google.com/docs/firestore) where the todo items will be stored and retrieved(Having same CRUD operations working with Firebase)
